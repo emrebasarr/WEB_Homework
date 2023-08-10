@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#navbar div ul {
+        width:500px;
+        margin-left:450px;
+}
+
+#navbar div ul li {
+            display: inline;
+            padding: 15px;
+}
+
+#navbar div ul li a {
+                text-decoration: none;
+                padding: 10px;
+
+}
+
+#tab {
+    width: 100%;
+    height: auto;
+    background-color: cadetblue;
+    display: flex;
+}
+#tab table {
+    border:groove;
+    position:center;
+}
+
+#bar {
+    display:flex;
+    justify-content:space-between;
+}
+#bar div{
+    border: 1px solid black;
+    padding:75px;
+}
+
+#bar div:hover{
+    background-color:chartreuse;
+}
+
+#bar div h1 {
+        position:center;
+}
